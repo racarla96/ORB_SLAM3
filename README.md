@@ -55,7 +55,7 @@ We have tested the library in **Ubuntu 16.04**, **18.04** and **20.04**, but it 
 
 ### All together
 
-**(Ubuntu)** sudo apt-get install libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 libopencv-dev python3-opencv libpython3-dev libeigen3-dev python3-distutils
+**(Ubuntu)** sudo apt-get install libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 libopencv-dev python3-opencv libpython3-dev libeigen3-dev python3-distutils libboost-all-dev
 
 ### Dependencies of the libraries
 
