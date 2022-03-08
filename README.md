@@ -90,7 +90,9 @@ We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) libra
 
 ## ROS (optional)
 
-We provide some examples to process input of a monocular, monocular-inertial, stereo, stereo-inertial or RGB-D camera using ROS. Building these examples is optional. These have been tested with ROS Melodic under Ubuntu 18.04.
+We provide some examples to process input of a monocular, monocular-inertial, stereo, stereo-inertial or RGB-D camera using ROS. Building these examples is optional. These have been tested with ROS Noetic under Ubuntu 20.04.
+
+http://wiki.ros.org/Installation/Ubuntu
 
 # 3. Building ORB-SLAM3 library and examples
 
