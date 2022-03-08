@@ -73,36 +73,15 @@ sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libp
 
 sudo apt-get install libglew-dev libboost-all-dev libssl-dev
 
+sudo apt-get install libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 libpython3-dev libeigen3-dev python3-distutils libboost-all-dev git
+
 sudo apt install libeigen3-dev
 
 ```
 
-### All together
-
-**(Ubuntu)** sudo apt-get install libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 libpython3-dev libeigen3-dev python3-distutils libboost-all-dev git
-
-### Dependencies of the libraries
-
-**(Ubuntu)** sudo apt-get install build-essential cmake sudo apt-get libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 python3-distutils python3-pip
-
-## C++11 or C++0x Compiler
-We use the new thread and chrono functionalities of C++11.
-
-**(Ubuntu)** sudo apt-get install build-essential cmake
-
-## Eigen3
-
-**(Ubuntu)** sudo apt-get install libeigen3-dev
-
-## OpenCV (Require v4.4)
-
-~~**(Ubuntu)** sudo apt-get install libopencv-dev python3-opencv~~
+### OpenCV (Require 4.4)
 
 https://linuxize.com/post/how-to-install-opencv-on-ubuntu-20-04/
-
-## Python
-
-**(Ubuntu)** sudo apt-get install libpython3-dev
 
 ## Pangolin
 We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and user interface. Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
@@ -118,17 +97,6 @@ cmake .. -D CMAKE_BUILD_TYPE=Release
 make -j 3 
 sudo make install
 ```
-
-~~## DBoW2, g2o and Sophus (Included in Thirdparty folder) (Not necessary install)
-We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) library to perform place recognition and [g2o](https://github.com/RainerKuemmerle/g2o) library to perform non-linear optimizations. Both modified libraries (which are BSD) are included in the *Thirdparty* folder.~~
-
-~~**DBoW2** git clone https://github.com/dorian3d/DBoW2.git~~
-
-~~**g2o** git clone https://github.com/RainerKuemmerle/g2o.git~~
-
-~~**Sophus** https://github.com/strasdat/Sophus.git~~
-
-~~**Sophus Dependency** https://github.com/fmtlib/fmt/releases/download/8.1.1/fmt-8.1.1.zip~~
 
 ## ROS (optional)
 
