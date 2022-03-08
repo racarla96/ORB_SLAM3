@@ -104,7 +104,12 @@ http://wiki.ros.org/Installation/Ubuntu
 
 https://github.com/IntelRealSense/librealsense
 
-https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md
+https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md (Remember install **-dev** package)
+
+## Some problems
+
+https://github.com/egdw/ORB_SLAM3_Ubuntu20.04
+(Only change CMakeLists.txt of the first error)
 
 # 3. Building ORB-SLAM3 library and examples
 
