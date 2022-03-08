@@ -70,7 +70,7 @@ We use the new thread and chrono functionalities of C++11.
 
 **(Ubuntu)** sudo apt-get install libeigen3-dev
 
-## OpenCV 4.4
+## OpenCV (Require v4.4)
 
 ~~**(Ubuntu)** sudo apt-get install libopencv-dev python3-opencv~~
 
