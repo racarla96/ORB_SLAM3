@@ -82,6 +82,10 @@ sudo apt install libeigen3-dev
 
 https://linuxize.com/post/how-to-install-opencv-on-ubuntu-20-04/
 
+sudo apt install python3-pip
+
+sudo apt install python3-pip
+
 ## Pangolin
 We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and user interface. Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
 
