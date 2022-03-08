@@ -81,18 +81,16 @@ We use the new thread and chrono functionalities of C++11.
 ## Pangolin
 We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and user interface. Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
 
-## DBoW2 and g2o (Included in Thirdparty folder)
+## DBoW2, g2o and Sophus (Included in Thirdparty folder) (Not necessary install)
 We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) library to perform place recognition and [g2o](https://github.com/RainerKuemmerle/g2o) library to perform non-linear optimizations. Both modified libraries (which are BSD) are included in the *Thirdparty* folder.
 
 **DBoW2** git clone https://github.com/dorian3d/DBoW2.git
 
 **g2o** git clone https://github.com/RainerKuemmerle/g2o.git
 
-## Sophus and fmt
+**Sophus** https://github.com/strasdat/Sophus.git
 
-https://github.com/strasdat/Sophus.git
-
-https://github.com/fmtlib/fmt/releases/download/8.1.1/fmt-8.1.1.zip
+**Sophus Dependency** https://github.com/fmtlib/fmt/releases/download/8.1.1/fmt-8.1.1.zip
 
 ## ROS (optional)
 
