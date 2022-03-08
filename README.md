@@ -88,9 +88,11 @@ We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) libra
 
 **g2o** git clone https://github.com/RainerKuemmerle/g2o.git
 
-## Sophus
+## Sophus and fmt
 
 https://github.com/strasdat/Sophus.git
+
+https://github.com/fmtlib/fmt/releases/download/8.1.1/fmt-8.1.1.zip
 
 ## ROS (optional)
 
