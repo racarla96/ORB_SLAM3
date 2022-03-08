@@ -57,12 +57,10 @@ If you use ORB-SLAM3 in an academic work, please cite:
      }
 
 # 2. Prerequisites
-We have tested the library in **Ubuntu 16.04**, **18.04** and **20.04**, but it should be easy to compile in other platforms. A powerful computer (e.g. i7) will ensure real-time performance and provide more stable and accurate results.
+We have tested the library in **fresh installed Ubuntu 20.04**, but it should be easy to compile in other platforms. A powerful computer (e.g. i7) will ensure real-time performance and provide more stable and accurate results.
 
-## Installation of ORB-SLAM 3 on a fresh installed Ubuntu 20.04
-Install all liberay dependencies.
+Install all libraries dependencies.
 ```shell
-
 sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
 sudo apt update
 
@@ -76,11 +74,11 @@ sudo apt-get install libglew-dev libboost-all-dev libssl-dev
 sudo apt-get install libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 libpython3-dev libeigen3-dev python3-distutils libboost-all-dev git
 
 sudo apt install libeigen3-dev
-
 ```
 
 ### OpenCV (Require 4.4)
 
+(Remember use git checkout)
 https://linuxize.com/post/how-to-install-opencv-on-ubuntu-20-04/
 
 ## Pangolin
