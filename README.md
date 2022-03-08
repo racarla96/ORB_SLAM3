@@ -100,6 +100,12 @@ We provide some examples to process input of a monocular, monocular-inertial, st
 
 http://wiki.ros.org/Installation/Ubuntu
 
+## Install Intel Realsense 2 SDK 
+
+https://github.com/IntelRealSense/librealsense
+
+https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md
+
 # 3. Building ORB-SLAM3 library and examples
 
 Clone the repository:
