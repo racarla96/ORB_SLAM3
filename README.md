@@ -55,11 +55,11 @@ We have tested the library in **Ubuntu 16.04**, **18.04** and **20.04**, but it 
 
 ### All together
 
-**(Ubuntu)** sudo apt-get install libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 libopencv-dev python3-opencv libpython3-dev libeigen3-dev 
+**(Ubuntu)** sudo apt-get install libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 libopencv-dev python3-opencv libpython3-dev libeigen3-dev python3-distutils
 
 ### Dependencies of the libraries
 
-**(Ubuntu)** sudo apt-get install build-essential cmake sudo apt-get libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 
+**(Ubuntu)** sudo apt-get install build-essential cmake sudo apt-get libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 python3-distutils
 
 ## C++11 or C++0x Compiler
 We use the new thread and chrono functionalities of C++11.
