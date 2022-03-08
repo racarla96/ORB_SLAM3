@@ -88,6 +88,10 @@ We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) libra
 
 **g2o** git clone https://github.com/RainerKuemmerle/g2o.git
 
+## Sophus
+
+https://github.com/strasdat/Sophus.git
+
 ## ROS (optional)
 
 We provide some examples to process input of a monocular, monocular-inertial, stereo, stereo-inertial or RGB-D camera using ROS. Building these examples is optional. These have been tested with ROS Noetic under Ubuntu 20.04.
