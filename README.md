@@ -55,7 +55,7 @@ We have tested the library in **Ubuntu 16.04**, **18.04** and **20.04**, but it 
 
 ### All together
 
-**(Ubuntu)** sudo apt-get install libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 libopencv-dev python3-opencv libpython3-dev libeigen3-dev python3-distutils libboost-all-dev git
+**(Ubuntu)** sudo apt-get install libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 libpython3-dev libeigen3-dev python3-distutils libboost-all-dev git
 
 ### Dependencies of the libraries
 
@@ -70,9 +70,11 @@ We use the new thread and chrono functionalities of C++11.
 
 **(Ubuntu)** sudo apt-get install libeigen3-dev
 
-## OpenCV
+## OpenCV 4.4
 
-**(Ubuntu)** sudo apt-get install libopencv-dev python3-opencv
+~~**(Ubuntu)** sudo apt-get install libopencv-dev python3-opencv~~
+
+https://linuxize.com/post/how-to-install-opencv-on-ubuntu-20-04/
 
 ## Python
 
