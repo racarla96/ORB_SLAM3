@@ -59,7 +59,7 @@ We have tested the library in **Ubuntu 16.04**, **18.04** and **20.04**, but it 
 
 ### Dependencies of the libraries
 
-**(Ubuntu)** sudo apt-get install build-essential cmake sudo apt-get libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 python3-distutils
+**(Ubuntu)** sudo apt-get install build-essential cmake sudo apt-get libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 python3-distutils python3-pip
 
 ## C++11 or C++0x Compiler
 We use the new thread and chrono functionalities of C++11.
