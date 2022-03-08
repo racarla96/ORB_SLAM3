@@ -78,7 +78,8 @@ sudo apt install libeigen3-dev
 
 ### OpenCV (Require 4.4)
 
-(Remember use git checkout)
+(Remember use git checkout with the version)
+
 https://linuxize.com/post/how-to-install-opencv-on-ubuntu-20-04/
 
 ## Pangolin
