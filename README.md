@@ -81,10 +81,14 @@ We use the new thread and chrono functionalities of C++11.
 ## Pangolin
 We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and user interface. Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
 
+https://github.com/stevenlovegrove/Pangolin/archive/refs/tags/v0.6.zip
+
 
 ## DBoW2 and g2o (Included in Thirdparty folder)
 We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) library to perform place recognition and [g2o](https://github.com/RainerKuemmerle/g2o) library to perform non-linear optimizations. Both modified libraries (which are BSD) are included in the *Thirdparty* folder.
 
+**DBoW2** https://github.com/dorian3d/DBoW2/archive/refs/tags/v1.1-free.zip
+**g2o** https://github.com/RainerKuemmerle/g2o/archive/refs/tags/20201223_git.zip
 
 ## ROS (optional)
 
