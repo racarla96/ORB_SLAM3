@@ -51,29 +51,40 @@ If you use ORB-SLAM3 in an academic work, please cite:
      }
 
 # 2. Prerequisites
-We have tested the library in **Ubuntu 16.04** and **18.04**, but it should be easy to compile in other platforms. A powerful computer (e.g. i7) will ensure real-time performance and provide more stable and accurate results.
+We have tested the library in **Ubuntu 16.04**, **18.04** and **20.04**, but it should be easy to compile in other platforms. A powerful computer (e.g. i7) will ensure real-time performance and provide more stable and accurate results.
+
+### All together
+
+**(Ubuntu)** build-essential cmake sudo apt-get libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 
+
+### Dependencies
+
+**(Ubuntu)** sudo apt-get libsuitesparse-dev qtdeclarative5-dev qt5-qmake libqglviewer-dev-qt5 libopencv-dev python3-opencv libpython3-dev libeigen3-dev
 
 ## C++11 or C++0x Compiler
 We use the new thread and chrono functionalities of C++11.
 
+**(Ubuntu)** sudo apt-get install build-essential cmake
+
+## Eigen3
+
+**(Ubuntu)** sudo apt-get install libeigen3-dev
+
+## OpenCV
+
+**(Ubuntu)** sudo apt-get install libopencv-dev python3-opencv
+
+## Python
+
+**(Ubuntu)** sudo apt-get install libpython3-dev
+
 ## Pangolin
 We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and user interface. Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
 
-## OpenCV
-We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload and install instructions can be found at: http://opencv.org. **Required at leat 3.0. Tested with OpenCV 3.2.0 and 4.4.0**.
-
-## Eigen3
-Required by g2o (see below). Download and install instructions can be found at: http://eigen.tuxfamily.org. **Required at least 3.1.0**.
 
 ## DBoW2 and g2o (Included in Thirdparty folder)
 We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) library to perform place recognition and [g2o](https://github.com/RainerKuemmerle/g2o) library to perform non-linear optimizations. Both modified libraries (which are BSD) are included in the *Thirdparty* folder.
 
-## Python
-Required to calculate the alignment of the trajectory with the ground truth. **Required Numpy module**.
-
-* (win) http://www.python.org/downloads/windows
-* (deb) `sudo apt install libpython2.7-dev`
-* (mac) preinstalled with osx
 
 ## ROS (optional)
 
