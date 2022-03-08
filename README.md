@@ -30,6 +30,9 @@ alt="ORB-SLAM3" width="240" height="180" border="10" /></a>
 
 [DBoW2 Place Recognition] Dorian Gálvez-López and Juan D. Tardós. **Bags of Binary Words for Fast Place Recognition in Image Sequences**. *IEEE Transactions on Robotics,* vol. 28, no. 5, pp. 1188-1197, 2012. **[PDF](http://doriangalvez.com/php/dl.php?dlp=GalvezTRO12.pdf)**
 
+# 0. Example
+https://medium.com/@tristan.sch/setting-up-a-virtual-machine-with-orb-slam-3-1a12e7905cf5
+
 # 1. License
 
 ORB-SLAM3 is released under [GPLv3 license](https://github.com/UZ-SLAMLab/ORB_SLAM3/LICENSE). For a list of all code/library dependencies (and associated licenses), please see [Dependencies.md](https://github.com/UZ-SLAMLab/ORB_SLAM3/blob/master/Dependencies.md).
