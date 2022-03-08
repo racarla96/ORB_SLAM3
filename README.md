@@ -107,6 +107,18 @@ https://linuxize.com/post/how-to-install-opencv-on-ubuntu-20-04/
 ## Pangolin
 We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and user interface. Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
 
+```shell
+cd ~/Dev
+git clone https://github.com/stevenlovegrove/Pangolin.git
+git checkout v0.6
+cd Pangolin 
+mkdir build 
+cd build 
+cmake .. -D CMAKE_BUILD_TYPE=Release 
+make -j 3 
+sudo make install
+```
+
 ## DBoW2, g2o and Sophus (Included in Thirdparty folder) (Not necessary install)
 We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) library to perform place recognition and [g2o](https://github.com/RainerKuemmerle/g2o) library to perform non-linear optimizations. Both modified libraries (which are BSD) are included in the *Thirdparty* folder.
 
