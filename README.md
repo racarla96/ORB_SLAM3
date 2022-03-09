@@ -32,7 +32,7 @@ alt="ORB-SLAM3" width="240" height="180" border="10" /></a>
 
 # 0. Example
 
-https://github.com/Mauhing/ORB_SLAM3/blob/master/README.md
+https://github.com/Mauhing/ORB_SLAM3/blob/master/README.md <- https://stackoverflow.com/questions/65932497/get-pip-py-returns-syntaxerror-invalid-syntax
 
 https://medium.com/@tristan.sch/setting-up-a-virtual-machine-with-orb-slam-3-1a12e7905cf5
 
